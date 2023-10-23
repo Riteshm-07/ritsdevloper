@@ -1,0 +1,283 @@
+
+
+<html langs"en"=""> 
+ <head></head> 
+ <body> <doctype html> 
+   <meta charset="utf-8"> 
+   <title> Cards</title> 
+   <link rel="preconnect" href"https: fonts.googleapis.com"> 
+   <link rel"preconnect" href="https://fonts.gstatic.com crossorigin>
+ <Link
+
+href=" https: fonts.googleapis.com css?family="Poppins&amp;display" swap ret"stylesheet"> 
+   <link rel="stylesheet" href="style.css"> 
+   <div class="sd"> 
+   </div> 
+   <div class="container"> 
+    <article class "card"> 
+     <div class img"> 
+      <img src="https://images.indianexpress.com/2021/08/money-heist-professor-1200.jpg"> 
+     </div> 
+     <div class'content'> 
+      <h2>Ritesh Mahabale </h2> 
+      <p> Senior full-stack web-devloper at <a href "https: google.com" title="Google">Google</a> </p> 
+      <p>Helping with:</p> 
+      <ul class="chips"> 
+       <li class="chip"> <a href="" style="text-decoration:none;">React.js</a></li> 
+       <li class="chip"> <a href="" style="text-decoration:none;">Node.js</a></li> 
+       <li class="chip"> <a href="" style="text-decoration:none;">PostgreSQL</a></li> 
+      </ul> 
+      <div class="action-buttons"> <a href="" title="book alector"> book your own website</a> 
+       <br> <a href="https://riteshm-07.github.io/professor/" title="https://riteshm-07.github.io/professor/"> learn more</a> 
+      </div> 
+      <div class="name"> <h> 
+        <a href="https://instagram.com/ritesh____m?igshid=OGQ5ZDc2ODk2ZA==">Ritesh</a> 
+       </h> 
+      </div> 
+      <style>
+  
+      
+        
+    img{
+  border-radius:50%;
+  height:400px;
+  width:400px;
+  margin:-60;
+  
+  
+}
+    
+
+.name {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  animation: bounce 0.5s infinite alternate;
+  background-color: rgb(193, 206, 230);
+  border-radius: 80px;
+  font-weight: 900px;
+  text-transform: uppercase;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  margin: 10;
+  
+
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+       
+                 
+           
+           
+          
+a{
+   font-size: 24px;
+   }
+
+:root {
+
+background: white;
+height: 900px;
+width: 900px;
+
+gray: EAEAEC;
+
+primary: #29283F; 
+primary-violet: #7370F4;
+
+}
+body {
+
+display: grid;
+
+background-color: rgb(229, 240, 17);
+ place-items: center;
+ padding: 34px; 
+font-family: Poppins, sans-serif;
+}
+*{
+margin: 11px;
+ padding: 11px;
+ border-radius: 10%;
+ display: 
+}
+
+.card{
+
+display: flex;
+
+flex-wrap: wrap;
+
+border-radius: 24px;
+
+background-color: white;
+overflow: hidden;
+
+cursor: pointer;
+
+max-width: clamp (320px, 70vw, 740px);
+min-width: 320px;
+
+min-height: 280px;
+}
+.card:hover {
+ box-shadow: black;
+}
+.background {
+flex: 1 1 250px;
+}
+
+.background img{
+ object-fit: cover;
+
+width: 100%;
+height: 100%;
+
+}
+
+.content{
+
+flex: 3 1 350px;
+display: flex; 
+flex-direction: column;
+justify-content: start;
+padding: 16px;
+font-size: 2em;
+
+  
+
+}
+
+.content> h2 { 
+color:white;
+ font-size: clamp(
+ 1.1rem, 2.5vw,
+  1. Brem);
+  font-weight: 700;
+   margin-bottom: clamp(
+   0.35 rem, 2vw, 8.55rem
+   );
+  }
+
+.content> p{
+  font-size: clamp (1rem,
+  1.75vw, 1.1rem);
+  font-weight: 400;
+   margin: 16px 0;
+ 
+}
+
+.content a{
+  color: var(--primary violate);
+  }
+
+.chips{
+
+display: flex;
+ gap: 12px;
+ Flex-wrap: wrap; 
+ list-style-type: none;
+ padding: 12px 0px 16px 0px;
+ }
+ 
+ .chip {
+
+border-radius: 12px;
+
+padding: 12px;
+ font-size: 24px;
+
+background-color: rgb(203, 205, 212);
+
+transition: all 0.5s;
+ font-weight: 700;
+}
+.chip:hover {
+
+background-color: white;
+
+color: gray;
+}
+
+.action-buttons a {
+
+border-top: gray;
+
+padding-top: 16px;
+
+gap: 12px;
+
+display: flex;
+
+margin-top: auto;
+
+flex-wrap: wrap:
+}
+
+.action-buttons a {
+
+background-color: #360c29 ;
+color:white;
+text-transform: uppercase;
+padding: 12px;
+
+text-decoration: none;
+
+border-radius: 32px;
+
+outline: none;
+
+border: none;
+
+font-size: 26px;
+
+display: flex; justify-content: center;
+
+align-items: center;
+
+white-space: nowrap;
+
+flex: 1 0 240px;
+
+max-width: 100%;
+}
+
+.action-buttons a:hover {
+
+}
+text-decoration: underline;
+}
+
+.action-buttons a.secondary { 
+ background-color: inherit;
+  color: vart-primary); 
+  border: 1px solid var( --primary);
+
+flex: 1 @ 80px;
+}
+
+p{
+  font-size: 30px;
+  font-style: bold;
+  }
+h2{
+  font-size: 40px;
+  }
+  
+</style> 
+     </div> 
+    </article> 
+   </div> 
+  </doctype> 
+ </body>
+</html
